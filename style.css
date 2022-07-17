@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+header {
+    background-color: brown;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+#section {
+    margin-left: 50px;
+}
+body{
+    background-image: url('./image/makeup-beauty-flatlay.jpg');
+}
+#input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    box-shadow: 10px 5px 5px black;
+}
+#list {
+    display: flex;
+    flex-direction: column;
+}
